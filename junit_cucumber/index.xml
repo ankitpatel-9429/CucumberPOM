@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="40.316671">
+    <testcase classname="Flipkart Test Application" name="Flipkart login Test" time="11.548625">
+        <system-out><![CDATA[Given verify login page title...............................................passed
+Then verify login page logo.................................................passed
+Then logged in using username and password..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Flipkart Test Application" name="Home page Test" time="28.768046">
+        <system-out><![CDATA[Given verify homepage username title........................................passed
+Then verify more manue options..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

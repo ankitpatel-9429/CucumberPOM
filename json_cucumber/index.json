@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9935619200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Flipkart login Test",
+        "description": "",
+        "id": "flipkart-test-application;flipkart-login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 805042500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 254442700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify login page title",
+            "match": {
+              "location": "LoginStepDefinition.verify_login_page_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147956500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify login page logo",
+            "match": {
+              "location": "LoginStepDefinition.verify_login_page_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 405564000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "logged in using username and password",
+            "match": {
+              "location": "LoginStepDefinition.logged_in_using_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10591414200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Home page Test",
+        "description": "",
+        "id": "flipkart-test-application;home-page-test",
+        "after": [
+          {
+            "result": {
+              "duration": 796485700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12164999800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify homepage username title",
+            "match": {
+              "location": "LoginStepDefinition.verify_homepage_username_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5215145900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify more manue options",
+            "match": {
+              "location": "LoginStepDefinition.verify_more_manue_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@test2"
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart Test Application",
+    "description": "",
+    "id": "flipkart-test-application",
+    "keyword": "Feature",
+    "uri": "E:/Java/Selenium_WorkSpace/CucumberPOM/src/main/java/com/qa/features/LoginPage.feature"
+  }
+]
